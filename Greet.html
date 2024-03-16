@@ -1,0 +1,56 @@
+<!-- <html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+               
+                $(":button").click(function(){
+                    alert("Hello " + $("#uname").val())
+                })
+              
+                
+            })
+        </script>
+
+        
+    </head>
+    <body>
+      <form>
+        Username : <input type="text" id="uname"> <br>
+        <input type="button" value="greet">
+      </form>
+    
+    </body>
+</html> -->
+
+
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+               
+                // $(":button").click(function(){
+                //     alert("Hello " + $("#fname").val()+" " + $("#lname").val())
+                // })
+              
+                $(":button").click(function(){
+                    
+                    $("#p1").html("Hello " + $("#fname").val()+" " + $("#lname").val())
+                })
+            })
+        </script>
+
+        
+    </head>
+    <body>
+      <form>
+        Firstname : <input type="text" id="fname"> <br>
+        lastname : <input type="text" id="lname"> <br>
+        
+        <input type="button" value="greet">
+      </form>
+    <p id="p1"></p>
+    </body>
+</html>
+
