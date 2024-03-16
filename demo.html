@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+
+            $(":button").click(function(){
+                alert("button clicked")
+               
+                $("h1").css("color","blue")
+                $("h1").css("background-color","orange")   
+             })
+
+             $("p").click(function(){
+                // alert("para clicked")
+               
+                $("p").css("color","red")
+                $("p").css("background-color","green")   
+             })
+               
+             $("p").mouseover(function(){
+                // alert("para clicked")
+               
+                $("p").css("color","red")
+                $("p").css("background-color","orange")   
+             })
+
+            $("p").dblclick(function(){
+                // alert("para clicked")
+               
+                $("p").css("color","red")
+                $("p").css("background-color","orange")   
+             })
+
+            })
+        </script>
+    </head>
+    <body>
+        <h1>
+            Welcome to JQuery
+        </h1>
+        
+        <p > this is para 1 </p>
+        <p > this is para 2</p>
+        <input type="button" value="myValue">
+     
+
+        
+    </body>
+</html>
+
+
+

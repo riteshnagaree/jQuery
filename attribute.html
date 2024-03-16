@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+               
+               
+ $("div[title]").length  //3
+
+$("div[title=div1]").length  //1
+
+$("div[title='div1']").length  //1
+
+               
+
+               
+            })
+        </script>
+    </head>
+    <body>
+        <h1>
+            Welcome to JQuery
+        </h1>
+        <div>
+        <p > this is para 1 in div</p>
+        <p > this is para 2 in div</p>
+     </div>
+
+        <div title="div1"><p> this is para 3</p></div>
+        <div title="div2"><p > this is para 4</p></div>
+        <div title="div3"><p> this is para 5</p></div>
+           
+    </body>
+</html>
+
+
+
